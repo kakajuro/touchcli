@@ -1,0 +1,35 @@
+{
+  "name": "@swishy/touch",
+  "version": "1.0.0",
+  "description": "The touch command but on windows",
+  "main": "index.js",
+  "bin": {
+    "@swishy/touch": "./bin/touch.js",
+    "touch": "./bin/touch.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "args",
+    "touch"
+  ],
+  "author": "swishy",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swishyy/touchcli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swishyy/touchcli/issues"
+  },
+  "homepage": "https://github.com/swishyy/touchcli#readme"
+}
